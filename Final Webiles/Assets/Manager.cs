@@ -43,7 +43,7 @@ public class Manager : MonoBehaviour {
 
 		//Button1
 		Debug.Log(b1press);
-		if ( ((micInput.volume > 0.5) && b1press ) && (audioSource1.isPlaying == false)) {
+		if ( ((micInput.volume >= 0.5) && b1press ) && (audioSource1.isPlaying == false)) {
 			Debug.Log ("Start 1");
 			audioSource1.Play ();
 		}
@@ -55,7 +55,7 @@ public class Manager : MonoBehaviour {
 
 		//Button2
 		Debug.Log(b2press);
-		if ( ((micInput.volume > 0.5) && b2press ) && (audioSource2.isPlaying == false)) {
+		if ( ((micInput.volume >= 0.5) && b2press ) && (audioSource2.isPlaying == false)) {
 			Debug.Log ("Start 2");
 			audioSource2.Play ();
 		}
@@ -67,7 +67,7 @@ public class Manager : MonoBehaviour {
 
 		//Button3
 		Debug.Log(b3press);
-		if ( ((micInput.volume > 0.5) && b3press ) && (audioSource3.isPlaying == false)) {
+		if ( ((micInput.volume >= 0.5) && b3press ) && (audioSource3.isPlaying == false)) {
 			Debug.Log ("Start 3");
 			audioSource3.Play ();
 		}
@@ -79,7 +79,7 @@ public class Manager : MonoBehaviour {
 
 		//Button4
 		Debug.Log(b4press);
-		if ( ((micInput.volume > 0.5) && b4press ) && (audioSource4.isPlaying == false)) {
+		if ( ((micInput.volume >= 0.5) && b4press ) && (audioSource4.isPlaying == false)) {
 			Debug.Log ("Start 4");
 			audioSource4.Play ();
 		}
